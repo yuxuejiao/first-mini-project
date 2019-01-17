@@ -1,3 +1,22 @@
-<view>
-  首页
+<view class="container">
+  <view class="banner">
+    <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" style="height: 500rpx">
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class='banner-image' />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="nav-content">
+    <view wx:for="{{navList}}" wx:key="{{index}}" class="nav-list">
+      <view class="left-list">
+        <text class="title">{{item.title}}</text>
+        <text class="subTitle">{{item.subTitle}}</text>
+      </view>
+      <view class="right-list">
+        <image src="../../assets/img/right-circle.png" class="right-arrow"/>
+      </view>
+    </view>
+  </view>
 </view>

@@ -1,1 +1,46 @@
 /* pages/index/index.js.wxss */
+.banner{
+  width: 100%;
+}
+.banner-image{
+  width: 100%;
+  height: 500rpx;
+}
+.nav-content{
+  width: 100%;
+  padding: 60rpx 40rpx;
+  box-sizing: border-box
+}
+.nav-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box
+}
+.left-list text{
+  display: flex;
+}
+.right-list{
+  display: flex;
+}
+.title{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.subTitle{
+  font-size: 12px;
+  color: #666;
+}
+.icon{
+  font-size: 16px;
+  color: #333;
+}
+.right-arrow{
+  width: 60rpx;
+  height: 60rpx;
+}
