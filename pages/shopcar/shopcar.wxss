@@ -1,1 +1,10 @@
 /* pages/shopcar/shopcar.wxss */
+.shopcar text{
+  font-size: 16px;
+  color: #333;
+}
+.shopcar button{
+  width: 300rpx;
+  height: 90rpx;
+  margin-top: 20rpx;
+}

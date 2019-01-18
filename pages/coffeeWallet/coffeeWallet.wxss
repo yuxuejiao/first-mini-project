@@ -1,0 +1,16 @@
+/* pages/coffeeWallet/coffeeWallet.wxss */
+.wallet{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+}
+.wallet text{
+  font-size: 14px;
+  color: #333;
+}
+.tip{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 10rpx 0 30rpx;
+}

@@ -4,8 +4,9 @@
     "pages/menu/menu",
     "pages/shopcar/shopcar",
     "pages/order/order",
-    "pages/myInfo/myInfo"
-   
+    "pages/myInfo/myInfo",
+    "pages/coffeeWallet/coffeeWallet",
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

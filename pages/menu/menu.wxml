@@ -1,2 +1,4 @@
 <!--pages/menu/menu.wxml-->
-<text>pages/menu/menu.wxml</text>
+<view class="container">
+  <text>敬请期待菜单列表</text>
+</view>

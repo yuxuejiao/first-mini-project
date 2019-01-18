@@ -1,0 +1,7 @@
+<!--pages/coffeeWallet/coffeeWallet.wxml-->
+<view>
+  <view class="wallet" bindtap='openModal'>
+    <image src="../../assets/img/tip.png" class="tip"/>
+    <text>咖啡钱包说明</text>
+  </view>
+</view>

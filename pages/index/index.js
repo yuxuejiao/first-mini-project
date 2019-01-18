@@ -22,7 +22,17 @@ Page({
   },
 
   gotoPage: (event)=>{
-      console.log("item,index: ", event);
+    console.log("event: ", event);
+    const { id } = event.currentTarget.dataset.item;
+    if(id === 1){
+      wx.switchTab({
+        url: "/pages/menu/menu"
+      })
+    }else if(id === 2){
+      wx.navigateTo({
+        url: '/pages/coffeeWallet/coffeeWallet',
+      })
+    }
   },
 
   /**

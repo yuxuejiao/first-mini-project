@@ -1,2 +1,4 @@
 <!--pages/order/order.wxml-->
-<text>pages/order/order.wxml</text>
+<view class="container">
+  <text>订单列表空空如也</text>
+</view>

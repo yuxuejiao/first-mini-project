@@ -1,4 +1,4 @@
-// pages/shopcar/shopcar.js
+// pages/coffeeWallet/coffeeWallet.js
 Page({
 
   /**
@@ -7,10 +7,19 @@ Page({
   data: {
 
   },
-
-  gotoOrderCoffee: ()=>{
-    wx.switchTab({
-      url: '/pages/menu/menu',
+  openModal: ()=>{
+    wx.showModal({
+      title: '咖啡钱包说明',
+      content: '1、咖啡钱包是coffee的优惠充赠和储杯方式 \r\n \r\n2、饮品券有效期三年啦啦啦啦啦啦啦啦',
+      confirmText: "我知道了",
+      showCancel: false,
+      success(res) {
+        if (res.confirm) {
+          console.log('用户点击确定')
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
+      }
     })
   },
 

@@ -1,2 +1,7 @@
 <!--pages/shopcar/shopcar.wxml-->
-<text>pages/shopcar/shopcar.wxml</text>
+<view class="container">
+  <view class="shopcar">
+    <text>您的购物车有点寂寞</text>
+    <button bindtap="gotoOrderCoffee">去喝一杯</button>
+  </view>
+</view>

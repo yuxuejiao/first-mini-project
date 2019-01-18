@@ -9,7 +9,6 @@
 .nav-content{
   width: 100%;
   padding: 60rpx 40rpx;
-  box-sizing: border-box
 }
 .nav-list{
   width: 100%;
@@ -19,7 +18,6 @@
   margin-bottom: 30rpx;
   padding-bottom: 30rpx;
   border-bottom: 1px solid #ccc;
-  box-sizing: border-box
 }
 .left-list>text{
   display: flex;
@@ -30,7 +28,6 @@
   color: #fff;
   font-size: 12px;
   padding: 5rpx;
-  box-sizing: border-box;
   border-radius: 10rpx;
 }
 .right-list{
