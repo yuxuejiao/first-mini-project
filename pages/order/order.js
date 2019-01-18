@@ -1,28 +1,11 @@
-// pages/index/index.js
+// pages/order/order.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
-      "../../assets/img/banner.jpg",
-      "../../assets/img/banner1.jpg",
-      "../../assets/img/banner2.jpg"
-    ],
-    autoplay: true,
-    interval: 3000,
-    duration: 1000,
-    circular: true,
-    navList: [
-      {title: "现在下单", subTitle: "ORDER NOW", icon: "coffee", id: 1},
-      {title: "咖啡钱包", tip: "充2赠1", subTitle: "COFFEE WALLET", icon: "wallet", id: 2},
-      {title: "邀请得杯", subTitle: "SHARE & GET IT FREE", icon: "love", id: 3}
-    ]
-  },
 
-  gotoPage: (event)=>{
-      console.log("item,index: ", event);
   },
 
   /**

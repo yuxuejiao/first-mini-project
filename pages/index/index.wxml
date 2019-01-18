@@ -9,9 +9,10 @@
     </swiper>
   </view>
   <view class="nav-content">
-    <view wx:for="{{navList}}" wx:key="{{index}}" class="nav-list">
+    <view wx:for="{{navList}}" wx:key="{{index}}" class="nav-list" bindtap="gotoPage" data-item="{{item}}">
       <view class="left-list">
-        <text class="title">{{item.title}}</text>
+        <text class="title">{{item.title}}<text wx:if="{{item.tip}}" class="tip">{{item.tip}}</text>
+        </text>
         <text class="subTitle">{{item.subTitle}}</text>
       </view>
       <view class="right-list">

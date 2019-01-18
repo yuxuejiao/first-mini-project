@@ -21,8 +21,17 @@
   border-bottom: 1px solid #ccc;
   box-sizing: border-box
 }
-.left-list text{
+.left-list>text{
   display: flex;
+}
+.tip{
+  margin-left: 10rpx;
+  background-color: orange;
+  color: #fff;
+  font-size: 12px;
+  padding: 5rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
 }
 .right-list{
   display: flex;
